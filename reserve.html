@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Wilier</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <!-- ここにグーグルフォント -->
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho&display=swap&subset=japanese" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+
+      <h1><a href="index.html">Wilier</a></h1>
+      </div>
+      <nav>
+
+      <ul>
+        <li><a href="index.html#concept">CONCEPT</a></li>
+        <li><a href="index.html#gallery">GALLERY</a></li>
+        <li><a href="index.html#menu">MENU</a></li>
+        <li><a href="index.html#access">ACCESS</a></li>
+        <li><a href="reserve.html">RESERVE</a></li>
+      </ul>
+    </nav>
+    </header>
+
+    <main>
+
+      <section id="reserve">
+        <h2>Reserve</h2>
+        <form>
+          <label class="form-group">
+          お名前<span class="require"></span>
+            <input type="text" name="name" class="valid-name"><br>
+          </label>
+          <label class="form-group">
+          お電話番号<span class="require"></span>
+            <input type="text" name="phone" class="valid-phone"><br>
+          </label>
+          <label class="form-group">
+          E-mail<span class="require"></span>
+            <input type="text" name="email" class="valid-email"><br>
+          </label>
+          <!-- <label class="form-group">
+          E-mail(確認用)<span class="require"></span>
+            <input type="text" name="email-check" class="valid-email-check">
+          </label> -->
+          <label class="form-group">
+          ご要望等<span class="require"></span>
+            <textarea name="comment" rows="10" cols="80" id="counter"></textarea><br>
+          </label>
+          <div>
+          <span class="show-count">0</span>/100
+        </div>
+          <input type="submit" name="submit" value="送信">
+        </form>
+      </section>
+
+      <section id="access" class="site-width">
+        <div class="access-left">
+          <h2>ACCESS</h2>
+          <table>
+            <tr>
+              <td>ADDRESS</td><td>〒123-4567</td>
+            </tr>
+            <tr>
+              <td></td><td>京都市下京区1-23-45</td>
+            </tr>
+            <tr>
+              <td>TEL</td><td>075-123-4567</td>
+            </tr>
+            <tr>
+              <td>OPEN</td><td>月～金 / 10：00 ～ 20：00</td>
+            </tr>
+            <tr>
+              <td></td><td>土・日・祝 / 9：00 ～ 19：00</td>
+            </tr>
+            <tr>
+              <td>CLOSE</td><td>月曜日・第2・3火曜日</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="access-right">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.8570891295817!2d135.75483326462899!3d34.98524423036234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600108ae918b02ef%3A0xb61a446e74a21c08!2z5Lqs6YO96aeF!5e0!3m2!1sja!2sjp!4v1563774400650!5m2!1sja!2sjp" width="500" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-left">
+        <h2>Wilier</h2>
+      </div>
+
+      <div class="footer-right">
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-facebook-f">　</i>
+      © <a href="index.html">Wilier</a>. All Rights Reserved.
+    </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
